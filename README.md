@@ -1,0 +1,2 @@
+# CodSoft
+Artificial Intelligence Project
