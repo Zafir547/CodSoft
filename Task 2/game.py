@@ -84,8 +84,8 @@ def play(game, x_player, o_player, print_game=True):
             if game.current_winner:
                 if print_game:
                     print(letter + ' wins!')
-                return letter # Ends the loop and Exists the Game
-            letter = 'O' if letter == 'X' else 'X' # Switches player
+                return letter 
+            letter = 'O' if letter == 'X' else 'X'
 
         time.sleep(.8)
 
